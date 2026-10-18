@@ -1,0 +1,130 @@
+<local:MyCard Title="极光星系 | AuroraGalaxy" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4" FontSize="30"
+                    Text="AuroraGalaxy | 极光星系服务器" />
+        <local:MyHint Margin="0,8,0,2" Theme="Blue" 
+                    Text="开拓者，现在是{date}，欢迎来到AuroraGalaxy，愿你的冒险之旅充满乐趣！逐光而行，终抵星海!" />
+	<local:MyIconTextButton Margin="0,4,0,0" Height="30" HorizontalAlignment="Right"
+                    Text="打开推广视频" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1qMRYBtEa4"
+                    LogoScale="1" Logo="M149 873c47 47 101 83 162 109 63 26 130 40 199 40 69 0 136-13 199-40 61-25 115-62 162-109s83-101 109-162c26-63 40-130 40-199 0-69-13-136-40-199-25-61-62-115-109-162-46-46-101-83-162-109C648 13 580 0 511 0s-136 13-199 40c-61 25-115 62-162 109s-83 101-109 162C13 375 0 442 0 511s13 136 40 199c25 61 62 115 109 162zM97 511c0-228 185-414 414-414 228 0 414 185 414 414S740 926 511 926c-228 0-414-185-414-414z M539 244c-8-4-17-7-27-7-9 0-19 2-27 7-16 9-27 27-27 47 0 30 24 54 54 54 30 0 54-24 54-54 0-19-10-37-27-47zM566 732v-284c0-30-24-54-54-54-30 0-54 24-54 54v284c0 30 24 54 54 54 30 0 54-24 54-54z" />
+	<local:MyImage Height="300" HorizontalAlignment="Center" Margin="0,0,0,4"
+            Source="https://i0.hdslb.com/bfs/new_dyn/8f016fc6aaa2602fcff52669aab79bb13493109048543643.png" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="公告" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock>主页公告</TextBlock>
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                Text="1.因为作者懒+学业，这个地方已经很就没人来了。"/>
+        <local:MyHint Margin="0,8,0,2" Theme="Blue"
+                Text="2.昨~ 日~ 一~ 去~ 不~ 复~ 回~ 哦！耶！ 开~ 心~ 比~ 什~ 么~ 都~ 贵~"/>
+    <Grid Grid.Column="1">
+        <Line X1="100" Y1="0" Stroke="{DynamicResource ColorBrush3}" Stretch="Fill"
+            StrokeThickness="2" Grid.Row="1" />
+        <Line Y1="50" X1="10" Stroke="{DynamicResource ColorBrush8}" Stretch="Fill"
+            StrokeThickness="2" Grid.Row="1" />
+    </Grid>
+        <TextBlock>服务器公告</TextBlock>
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="修复了货币“星辰砂”签到获取倍率异常的问题。" />
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="修更改账户绑定方式，测试版本稳定较差，若遇无法绑定问题请联系管理员处理。"/>
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+                    Text="因服务器安全配置更新，本次更新后进入服务器需重新进行绑定，游戏及账户数据不受影响。"/>
+        <local:MyHint Text="服务器话说要系统更新来着……已经更新完了吗？" />
+    </StackPanel> 
+</local:MyCard>
+
+<local:MyCard Title="服务器主要人员" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Text="顺序从左到右分别为：将离喵~（服主）、Brief...（管理）、暮色流年（管理）" />
+        <local:MyHint Text="无用のOKIL（管理、AG-PCL主页维护者）、小那菈（管理）、小杏（管理）、星璇酱-AGBot（服务器掌管登陆的神）" />
+        <TextBlock>头像功能请敬请期待。</TextBlock>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="新人必读总公告" Margin="0,0,0,15" CanSwap="True" IsSwapped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,8,0,2"
+                    Text="版本：1.18 ~ 26.2"/>
+        <TextBlock Margin="0,8,0,2"
+                    Text="推荐版本：Java 1.21.11"/>
+        <local:MyTextButton Margin="0,8,0,2"
+                    Text="IP: agmc.top" EventType="复制文本" EventData="agmc.top"/>
+        <local:MyTextButton Margin="0,8,0,2"
+                    Text="备用IP: v6.agmc.top" EventType="复制文本" EventData="v6.agmc.top"/>
+        <local:MyTextButton Margin="0,8,0,2"
+                    Text="基岩版IP：be.agmc.top:49560" EventType="复制文本" EventData="be.agmc.top:49560"/>
+        <local:MyTextButton Margin="0,8,0,2"
+                    Text="官网: https://www.agmc.top" EventType="打开网页" EventData="https://www.agmc.top"/>
+        <local:MyTextButton Margin="0,8,0,2"
+                    Text="官方Wiki: https://wiki.agmc.top" EventType="打开网页" EventData="https://wiki.agmc.top"/>
+        <local:MyTextButton Margin="0,8,0,2"
+                    Text="QQ群：563584770" EventType="复制文本" EventData="563584770"/>
+        <local:MyTextButton Margin="0,8,0,2"
+                    Text="加群链接" EventType="打开网页" EventData="https://qm.qq.com/q/Fzrx6hksgY"/>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="快捷按钮" Margin="0,0,0,15" CanSwap="True" IsSwapped="True">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" Theme="Red"
+            Text="由于未知原因，官方wiki与官网无法打开，将会把按钮暂时指向社区版本wiki"/>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="打开官网" EventType="打开网页" EventData="https://www.agmc.top"/> 
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="打开Wiki" EventType="打开网页" EventData="https://wiki.ags-cf.ccwu.cc"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="腐竹的爱发电" EventType="打开网页" EventData="https://ifdian.net/a/auroragalaxy"/>
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="内存优化" EventType="内存优化"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="腐竹的B站账号" EventType="打开网页" EventData="https://space.bilibili.com/3493109048543643"/>
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="主页作者的B站账号" EventType="打开网页" EventData="https://space.bilibili.com/3691010139884311"/>
+        </StackPanel>
+        <Grid Grid.Column="1">
+            <Line X1="100" Y1="30" Stroke="{DynamicResource ColorBrush3}" Stretch="Fill"
+            StrokeThickness="2" Grid.Row="1" />
+        </Grid>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="查看原代码库" EventType="打开网页" EventData="https://gitee.com/BZJIANSHAO/aurora-galaxie.gitee.io"/>
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="看不见我……" EventType="弹出窗口" EventData="饿啊 被发现了！|可恶，被发现了！既然你的视力这么豪，那就仔细看看页脚吧！"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="反馈或投稿" EventType="打开网页" EventData="https://gitee.com/BZJIANSHAO/aurora-galaxie.gitee.io/issues"/>
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="下载原代码" EventType="下载文件" EventData="https://gitee.com/BZJIANSHAO/aurora-galaxie.gitee.io/raw/master/Custom.xaml"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="启动游戏" EventType="启动游戏" EventData="1.21.11|agmc.top"/>
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Right" Padding="13,0,13,0"
+                    Text="今日人品" EventType="今日人品"/>
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<StackPanel>
+    <Border Height="300" Margin="-25,10,-25,-20"
+        BorderThickness="0,2,0,0" BorderBrush="#3756d4">
+        <StackPanel Margin="40,15,0,20">
+            <TextBlock Text="AG-PCL Future" Foreground="#3756d4" FontSize="16" Margin="0,5,5,5" />
+            <TextBlock>Code by 不贱剑少<LineBreak />特别鸣谢：将离<LineBreak />版本号：Future 1.4（删减版）<LineBreak /></TextBlock>
+            <TextBlock>本主页采用AGPL-3.0协议，使用代码时请自觉遵循协议和免责声明。<LineBreak /></TextBlock>
+            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页" Text="打开Gitee页面" EventData="https://gitee.com/BZJIANSHAO/aurora-galaxie.gitee.io"/>
+            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页" Text="." EventData="https://www.bilibili.com/video/BV1GJ411x7h7"/>
+            <local:MyTextButton Margin="0,0,0,-3" EventType="打开网页" Text=" " EventData="https://www.bilibili.com/video/BV1yDR8BwEgt/?t=16"/>
+            <local:MyImage Height="50" HorizontalAlignment="Center" Source="https://gitee.com/BZJIANSHAO/aurora-galaxie.gitee.io/raw/master/Photo2.png"/>
+        </StackPanel>
+    </Border>
+</StackPanel>
