@@ -20,9 +20,9 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock>主页公告</TextBlock>
         <local:MyHint Margin="0,8,0,2" Theme="Blue"
-                Text="1.优化了UI页面，更加美观。"/>
+                Text="1.同步了服务器公告。"/>
         <local:MyHint Margin="0,8,0,2" Theme="Blue"
-                Text="2.我考上了大专，我能专升本，你不能本升专。"/>
+                Text="2.联通你就搞我吧，这千兆网跟百兆有啥区别？！。"/>
     <Grid Grid.Column="1">
         <Line X1="100" Y1="0" Stroke="{DynamicResource ColorBrush3}" Stretch="Fill"
             StrokeThickness="2" Grid.Row="1" />
@@ -31,11 +31,11 @@
     </Grid>
         <TextBlock>服务器公告</TextBlock>
         <local:MyHint Margin="0,8,0,2" Theme="Blue"
-                    Text="没错，服务器已经800年没有发公告了。" />
+                    Text="服务器连接恢复，目前Java版支持26.1以下版本，基岩版仅支持26.0, 26.1, 26.2, 26.3, 26.10, 26.20, 26.21, 26.22, 26.23, 26.30版本，支持的版本将在后续进行添加。" />
         <local:MyHint Margin="0,8,0,2" Theme="Blue"
-                    Text="似乎腐竹在搞新官网，到时候看看吧。"/>
+                    Text="因主机系统更换原因，服务器内部分功能受影响不稳定或不可用，将在近期进行修复更新。"/>
         <local:MyHint Margin="0,8,0,2" Theme="Yellow"
-                    Text="服务器系统更新了吗QwQ？"/>
+                    Text="服务器新版本官网测试上线，目前网络状态较不稳定，加载可能较慢。（快捷按钮或公告快速跳转）"/>
     </StackPanel> 
 </local:MyCard>
 
@@ -75,10 +75,10 @@
         <local:MyHint Margin="0,8,0,2" Theme="Red"
             Text="由于未知原因，部分网页无法打开。"/>
         <StackPanel Orientation="Horizontal">
-            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Left" Padding="13,0,13,0"
+            <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
                     Text="打开官网" EventType="打开网页" EventData="https://www.agmc.top"/> 
             <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="Red" HorizontalAlignment="Right" Padding="13,0,13,0"
-                    Text="打开Wiki" EventType="打开网页" EventData="https://wiki.ags-cf.ccwu.cc"/>
+                    Text="打开Wiki（CE）" EventType="打开网页" EventData="https://wiki.ags-cf.ccwu.cc"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
             <local:MyButton Margin="0,0,0,0" Width="240" Height="35" ColorType="HighLight" HorizontalAlignment="Left" Padding="13,0,13,0"
@@ -116,7 +116,7 @@
         BorderThickness="0,2,0,0" BorderBrush="#373ad4">
         <StackPanel Margin="40,15,0,20">
             <TextBlock Text="AG-PCL Future" Foreground="#3756d4" FontSize="16" Margin="0,5,5,5" />
-            <TextBlock>Code by 不贱剑少<LineBreak />特别鸣谢：将离<LineBreak />版本号：Future 1.5<LineBreak /></TextBlock>
+            <TextBlock>Code by 不贱剑少<LineBreak />特别鸣谢：将离<LineBreak />版本号：Future 1.5.1<LineBreak /></TextBlock>
             <TextBlock>本主页采用AGPL-3.0协议，使用代码时请自觉仓库中的遵循协议和免责声明。<LineBreak /></TextBlock>
             <local:MyIconTextButton Margin="0,5,7,6" Height="100" HorizontalAlignment="Left"
                 Text="Github仓库" EventType="打开网页" EventData="https://github.com/BZJIANSHAO/AuroraGalaxy.PCL.Homepage" Logo="M512 42.666667A464.64 464.64 0 0 0 42.666667 502.186667 460.373333 460.373333 0 0 0 363.52 938.666667c23.466667 4.266667 32-9.813333 32-22.186667v-78.08c-130.56 27.733333-158.293333-61.44-158.293333-61.44a122.026667 122.026667 0 0 0-52.053334-67.413333c-42.666667-28.16 3.413333-27.733333 3.413334-27.733334a98.56 98.56 0 0 1 71.68 47.36 101.12 101.12 0 0 0 136.533333 37.973334 99.413333 99.413333 0 0 1 29.866667-61.44c-104.106667-11.52-213.333333-50.773333-213.333334-226.986667a177.066667 177.066667 0 0 1 47.36-124.16 161.28 161.28 0 0 1 4.693334-121.173333s39.68-12.373333 128 46.933333a455.68 455.68 0 0 1 234.666666 0c89.6-59.306667 128-46.933333 128-46.933333a161.28 161.28 0 0 1 4.693334 121.173333A177.066667 177.066667 0 0 1 810.666667 477.866667c0 176.64-110.08 215.466667-213.333334 226.986666a106.666667 106.666667 0 0 1 32 85.333334v125.866666c0 14.933333 8.533333 26.88 32 22.186667A460.8 460.8 0 0 0 981.333333 502.186667 464.64 464.64 0 0 0 512 42.666667"/>
